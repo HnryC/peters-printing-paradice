@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
 * {
+  font-family: 'Roboto Mono', monospace;
   --black: #2e2c2f;
   --white: #f3e8ee;
   --lgreen: #bacdb0;
@@ -53,5 +56,17 @@
 }
 
 .grid_container {
+  display: grid;
+  column-gap: 10%;
+  row-gap: 10%;
+  grid-template-columns: 45% 45%;
+}
 
+.grid_item {
+  padding: 55px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
